@@ -26,7 +26,7 @@ print(is_empty())
 def check_lists(x,y):
 	if len(x)>2 and len(y)>2:
 		if x[2]==y[2]: 
-			return "True"
+			return True
 		else:
 			return False
 	else:
