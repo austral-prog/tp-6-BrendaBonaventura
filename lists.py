@@ -8,7 +8,7 @@ def remove_elements(x):
 		return x			
 	else:
 		return x
-print(remove_elements())
+
 def add_elements(x):
 	x.insert(0,"Pink")
 	x.insert(len(x), "Yellow")
@@ -21,7 +21,7 @@ def is_empty(lista):
 		return True
 	else:
 		return False
-print(is_empty())
+
 
 def check_lists(x,y):
 	if len(x)>2 and len(y)>2:
@@ -31,7 +31,7 @@ def check_lists(x,y):
 			return False
 	else:
 		return False
-print(check_lists())
+
 
 def list_of_lists(x):
 	if len(x)>2:
@@ -49,4 +49,3 @@ def list_of_lists(x):
       		else:
 			p3=[]
 		return [p1, p2, p3]
-print(list_of_lists())
