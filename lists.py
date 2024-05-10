@@ -46,7 +46,7 @@ def list_of_lists(x):
 			p2=[]
 		if len(x[2])>=1:
 			p3=x[2][-2:]
-        else:
+      		else:
 			p3=[]
 		return [p1, p2, p3]
 print(list_of_lists([[1,2,3],[4,5,6,7,8],[9,10,11,12]]))
